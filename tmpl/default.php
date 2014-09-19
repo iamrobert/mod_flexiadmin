@@ -162,10 +162,9 @@ $hiddebuttonaddtag           = $params->get('hiddebuttonaddtag'          , '1');
 $hiddebuttonadduser          = $params->get('hiddebuttonadduser'         , '1');
 $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1');
 ?>
-
 <div class="row-fluid">
 <?php if ($displaycustomtab || $displaycreattab || $displaymanagetab || $displayadmintab) : ?>
-    <div class="action well well-small span13">
+    <div class="action well well-small span12">
 	<?php if ($displayconfigmodule) : ?>
 	<a href="index.php?option=com_modules&view=module&layout=edit&id=<?php echo $module->id;?>" style="float:right;">
 		<button type="button" class="btn btn-default">
@@ -192,7 +191,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 				</a>
 			<?php endif; ?>
 			<?php if ($namebutton2) : ?>
-				<a href="index.php?option=com_flexicontent&controller=items&task=items.add&typeid=<?php echo $type3;?>&maincat=<?php echo $maincat2; ?>" >
+				<a href="index.php?option=com_flexicontent&controller=items&task=items.add&typeid=<?php echo $type2;?>&maincat=<?php echo $maincat2; ?>" >
 						<button type="button" class="btn btn-default btn-lg itemlist">
 							<i class="icon-large icon-file-plus"></i><br/> 
 						<?php echo $namebutton2; ?>
@@ -266,7 +265,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 			<?php if ($namecatfilter1) : ?>
 				<a href="index.php?option=com_flexicontent&view=items&filter_cats=<?php echo $filtercat1; ?>" >
 						<button type="button" class="btn btn-default btn-lg itemlist">
-							<i class="icon-large icon-list"></i><br/> 
+							<i class="icon-large icon-folder"></i><br/> 
 						<?php echo $namecatfilter1; ?>
 						</button>
 				</a>
@@ -274,7 +273,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 			<?php if ($namecatfilter2) : ?>
 				<a href="index.php?option=com_flexicontent&view=items&filter_cats=<?php echo $filtercat2; ?>" >
 						<button type="button" class="btn btn-default btn-lg itemlist">
-							<i class="icon-large icon-list"></i><br/> 
+							<i class="icon-large icon-folder"></i><br/> 
 						<?php echo $namecatfilter2; ?>
 						</button>
 				</a>
@@ -282,7 +281,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 			<?php if ($namecatfilter3) : ?>
 				<a href="index.php?option=com_flexicontent&view=items&filter_cats=<?php echo $filtercat3; ?>" >
 						<button type="button" class="btn btn-default btn-lg itemlist">
-							<i class="icon-large icon-list"></i><br/> 
+							<i class="icon-large icon-folder"></i><br/> 
 						<?php echo $namecatfilter3; ?>
 						</button>
 				</a>
@@ -290,7 +289,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 			<?php if ($namecatfilter4) : ?>
 				<a href="index.php?option=com_flexicontent&view=items&filter_cats=<?php echo $filtercat4; ?>" >
 						<button type="button" class="btn btn-default btn-lg itemlist">
-							<i class="icon-large icon-list"></i><br/> 
+							<i class="icon-large icon-folder"></i><br/> 
 						<?php echo $namecatfilter4; ?>
 						</button>
 				</a>
@@ -298,7 +297,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 			<?php if ($namecatfilter5) : ?>
 				<a href="index.php?option=com_flexicontent&view=items&filter_cats=<?php echo $filtercat5; ?>" >
 						<button type="button" class="btn btn-default btn-lg itemlist">
-							<i class="icon-large icon-list"></i><br/> 
+							<i class="icon-large icon-folder"></i><br/> 
 						<?php echo $namecatfilter5; ?>
 						</button>
 				</a>
@@ -306,7 +305,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 			<?php if ($namecatfilter6) : ?>
 				<a href="index.php?option=com_flexicontent&view=items&filter_cats=<?php echo $filtercat6; ?>" >
 						<button type="button" class="btn btn-default btn-lg itemlist">
-							<i class="icon-large icon-list"></i><br/> 
+							<i class="icon-large icon-folder"></i><br/> 
 						<?php echo $namecatfilter6; ?>
 						</button>
 				</a>
@@ -314,7 +313,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 			<?php if ($namecatfilter7) : ?>
 				<a href="index.php?option=com_flexicontent&view=items&filter_cats=<?php echo $filtercat7; ?>" >
 						<button type="button" class="btn btn-default btn-lg itemlist">
-							<i class="icon-large icon-list"></i><br/> 
+							<i class="icon-large icon-folder"></i><br/> 
 						<?php echo $namecatfilter7; ?>
 						</button>
 				</a>
@@ -322,7 +321,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 			<?php if ($namecatfilter8) : ?>
 				<a href="index.php?option=com_flexicontent&view=items&filter_cats=<?php echo $filtercat8; ?>" >
 						<button type="button" class="btn btn-default btn-lg itemlist">
-							<i class="icon-large icon-list"></i><br/> 
+							<i class="icon-large icon-folder"></i><br/> 
 						<?php echo $namecatfilter8; ?>
 						</button>
 				</a>
@@ -330,7 +329,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 			<?php if ($namecatfilter9) : ?>
 				<a href="index.php?option=com_flexicontent&view=items&filter_cats=<?php echo $filtercat9; ?>" >
 						<button type="button" class="btn btn-default btn-lg itemlist">
-							<i class="icon-large icon-list"></i><br/> 
+							<i class="icon-large icon-folder"></i><br/> 
 						<?php echo $namecatfilter9; ?>
 						</button>
 				</a>
@@ -338,7 +337,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 			<?php if ($namecatfilter10) : ?>
 				<a href="index.php?option=com_flexicontent&view=items&filter_cats=<?php echo $filtercat10; ?>" >
 						<button type="button" class="btn btn-default btn-lg itemlist">
-							<i class="icon-large icon-list"></i><br/> 
+							<i class="icon-large icon-folder"></i><br/> 
 						<?php echo $namecatfilter10; ?>
 						</button>
 				</a>
@@ -440,7 +439,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 				<?php if($hiddebuttonaddcategory): ?>
 				<a href="index.php?option=com_flexicontent&view=category">
 					<button type="button" class="btn btn-default btn-lg itemlist">  
-					<i class="icon-large icon-list"></i><br/> 
+					<i class="icon-large icon-folder"></i><br/> 
 					<?php echo JText::_( 'FLEXI_ADMIN_ADDCATEGORY' ); ?>
 					</button>
 				</a>
@@ -485,7 +484,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 				<?php if($hiddebuttonmanagecategories): ?>
 					<a href="index.php?option=com_flexicontent&view=categories">
 						<button type="button" class="btn btn-default btn-lg itemlist">  
-							<i class="icon-large icon-list"></i><br/> 
+							<i class="icon-large icon-folder"></i><br/> 
 							<?php echo JText::_( 'FLEXI_ADMIN_CATLIST' ); ?>
 						</button>
 					</a>
@@ -616,7 +615,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 			<div class="row-striped">		
 				<?php foreach ($listPending as $itemPending) : ?>			
 				<div class="row-fluid">				
-					<div class="span13">					
+					<div class="span12">					
 						<div class="span6">					
 							<a href="<?php echo $itemPending->link; ?>"><?php echo $itemPending->title; ?>	
 							<i class="icon-large icon-edit"></i></a>					
@@ -653,7 +652,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 			<div class="row-striped">		
 				<?php foreach ($listRevised as $itemRevised) : ?>			
 				<div class="row-fluid">
-					<div class="span13">					
+					<div class="span12">					
 						<div class="span6">							
 							<a href="<?php echo $itemRevised->link; ?>"><?php echo $itemRevised->title; ?>					
 							<i class="icon-large icon-edit"></i></a>					
@@ -687,7 +686,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 			<div class="row-striped">				
 				<?php foreach ($listInprogress as $itemInprogress) : ?>			
 				<div class="row-fluid">				
-					<div class="span13">					
+					<div class="span12">					
 						<div class="span6">							
 							<a href="<?php echo $itemInprogress->link; ?>"><?php echo $itemInprogress->title; ?>					
 							<i class="icon-large icon-edit"></i></a>					
@@ -722,7 +721,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 	<div class="row-striped">		
 		<?php foreach ($listDraft as $itemDraft) : ?>
 		<div class="row-fluid">		
-			<div class="span13">	
+			<div class="span12">	
 				<div class="span6">		
 					<a href="<?php echo $itemDraft->link; ?>"><?php echo $itemDraft->title; ?>	
 					<i class="icon-large icon-edit"></i></a>		
@@ -748,7 +747,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 	<div class="youritems well well-small span<?php echo $column; ?>">	
 		<?php $user = JFactory::getUser();		?>
 		<h3 class="module-title nav-header">
-		<i class="icon-large icon-user"></i> 
+		<i class="icon-large icon-user"></i>
 		<?php echo JText::_( 'FLEXI_YOUR_ITEM' ); ?> : <?php echo $user->name; ?></h3>	
 		<?php		$show_all_link = 'index.php?option=com_flexicontent&amp;view=items&amp;filter_state=OQ'; ?>
 		<div style='text-align:right;'>
@@ -759,7 +758,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 		<div class="row-striped">		
 			<?php foreach ($listUseritem as $itemUseritem) : ?>		
 			<div class="row-fluid">		
-				<div class="span13">			
+				<div class="span12">			
 					<div class="span6">					
 						<a href="<?php echo $itemUseritem->link; ?>"><?php echo $itemUseritem->title; ?>	
 						<i class="icon-large icon-edit"></i></a>		
@@ -811,7 +810,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 	
 			<?php foreach ($listCustomlist1 as $itemCustomlist1) : ?>		
 			<div class="row-fluid">		
-				<div class="span13">			
+				<div class="span12">			
 					<div class="span6">					
 						<a href="<?php echo $itemCustomlist1->link; ?>"><?php echo $itemCustomlist1->title; ?>	
 						<i class="icon-large icon-edit"></i></a>		
@@ -839,7 +838,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 		<h3 class="module-title nav-header">
 		<i class="icon-large icon-user"></i> 
 		<?php echo JText::_($nameblockcustom2); ?> : </h3>	
-		<?php		$show_all_link = 'index.php?option=com_flexicontent&amp;view=items&amp;&filter_cats='.$catidlist2; ?>
+		<?php $show_all_link = 'index.php?option=com_flexicontent&amp;view=items&amp;&filter_cats='.$catidlist2; ?>
 		<div style='text-align:right;'>
 		<a href='<?php echo $show_all_link ?>' class='adminlink'>
 		<?php
@@ -849,9 +848,9 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 	
 			<?php foreach ($listCustomlist2 as $itemCustomlist2) : ?>		
 			<div class="row-fluid">		
-				<div class="span13">			
+				<div class="span12">			
 					<div class="span6">					
-						<a href="<?php echo $itemCustomlist2->link; ?>"><?php echo $itemCustomlist2->title; ?>	
+						<a href="<?php echo $itemCustomlist2->link; ?>"><?php echo $itemCustomlist2->title; ?>
 						<i class="icon-large icon-edit"></i></a>		
 					</div>				
 					<div class="span3" style="margin-left: 0 !important;">		
@@ -887,7 +886,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 	
 			<?php foreach ($listCustomlist3 as $itemCustomlist3) : ?>		
 			<div class="row-fluid">		
-				<div class="span13">			
+				<div class="span12">			
 					<div class="span6">					
 						<a href="<?php echo $itemCustomlist3->link; ?>"><?php echo $itemCustomlist3->title; ?>	
 						<i class="icon-large icon-edit"></i></a>		
@@ -925,7 +924,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 	
 			<?php foreach ($listCustomlist4 as $itemCustomlist4) : ?>		
 			<div class="row-fluid">		
-				<div class="span13">			
+				<div class="span12">			
 					<div class="span6">					
 						<a href="<?php echo $itemCustomlist4->link; ?>"><?php echo $itemCustomlist4->title; ?>	
 						<i class="icon-large icon-edit"></i></a>		
@@ -963,7 +962,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 	
 			<?php foreach ($listCustomlist5 as $itemCustomlist5) : ?>		
 			<div class="row-fluid">		
-				<div class="span13">			
+				<div class="span12">			
 					<div class="span6">					
 						<a href="<?php echo $itemCustomlist5->link; ?>"><?php echo $itemCustomlist5->title; ?>	
 						<i class="icon-large icon-edit"></i></a>		
@@ -1001,7 +1000,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 	
 			<?php foreach ($listCustomlist6 as $itemCustomlist6) : ?>		
 			<div class="row-fluid">		
-				<div class="span13">			
+				<div class="span12">			
 					<div class="span6">					
 						<a href="<?php echo $itemCustomlist6->link; ?>"><?php echo $itemCustomlist6->title; ?>	
 						<i class="icon-large icon-edit"></i></a>		
@@ -1039,7 +1038,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 	
 			<?php foreach ($listCustomlist7 as $itemCustomlist7) : ?>		
 			<div class="row-fluid">		
-				<div class="span13">			
+				<div class="span12">			
 					<div class="span6">					
 						<a href="<?php echo $itemCustomlist7->link; ?>"><?php echo $itemCustomlist7->title; ?>	
 						<i class="icon-large icon-edit"></i></a>		
@@ -1077,7 +1076,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 	
 			<?php foreach ($listCustomlist8 as $itemCustomlist8) : ?>		
 			<div class="row-fluid">		
-				<div class="span13">			
+				<div class="span12">			
 					<div class="span6">					
 						<a href="<?php echo $itemCustomlist8->link; ?>"><?php echo $itemCustomlist8->title; ?>	
 						<i class="icon-large icon-edit"></i></a>		
@@ -1115,7 +1114,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 	
 			<?php foreach ($listCustomlist9 as $itemCustomlist9) : ?>		
 			<div class="row-fluid">		
-				<div class="span13">			
+				<div class="span12">			
 					<div class="span6">					
 						<a href="<?php echo $itemCustomlist9->link; ?>"><?php echo $itemCustomlist9->title; ?>	
 						<i class="icon-large icon-edit"></i></a>		
@@ -1153,7 +1152,7 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 	
 			<?php foreach ($listCustomlist10 as $itemCustomlist10) : ?>		
 			<div class="row-fluid">		
-				<div class="span13">			
+				<div class="span12">			
 					<div class="span6">					
 						<a href="<?php echo $itemCustomlist10->link; ?>"><?php echo $itemCustomlist10->title; ?>	
 						<i class="icon-large icon-edit"></i></a>		
@@ -1179,5 +1178,3 @@ $hiddebuttonaddgroup         = $params->get('hiddebuttonaddgroup'         , '1')
 </div>
 </div>
 </div>
-
-
